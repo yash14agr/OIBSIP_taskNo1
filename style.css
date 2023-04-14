@@ -1,0 +1,50 @@
+.body {
+    background-color: black;
+    justify-content: center;
+}
+
+.container {
+    border-radius: .5rem;
+    width: fit-content;
+    margin: 0 auto;
+    border: 2px solid grey;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen-color {
+    background-color: rgb(34, 32, 32);
+    font-size: 2.5rem;
+    width: 23rem;
+    height: 3rem;
+    color: white;
+    border-color: transparent;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: rgb(18, 17, 17);
+    border-radius: 50%;
+    margin: 5px;
+    color: lightskyblue;
+    font-size: 3rem;
+    width: 5rem;
+    border: 0px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+button:hover {
+    background-color: rgb(60, 58, 58);
+}
+
+.blue {
+    color: lightskyblue;
+    font-size: 3rem;
+    background-color: rgb(4, 4, 91);
+}
